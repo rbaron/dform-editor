@@ -1,0 +1,42 @@
+{
+  "name": "dform-editor",
+  "version": "1.5.1",
+  "description": "Schema editor for github.com/dform",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "jest",
+    "watch": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbaron/dform-editor"
+  },
+  "author": "rbaron",
+  "license": "MIT",
+  "dependencies": {
+    "aphrodite": "^1.2.1",
+    "dform": "1.2.0",
+    "material-ui": "^0.18.6",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-ace": "^5.0.1",
+    "react-dform": "^1.5.1",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "jest": "^20.0.4",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1"
+  }
+}
