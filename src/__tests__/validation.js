@@ -348,7 +348,7 @@ describe('validateSchema with invalid fields', () => {
 });
 
 describe('validateSchema with invalid conds', () => {
-  it.only('raises if missing cond', () => {
+  it('raises if missing cond', () => {
     const schemaText = JSON.stringify({
       // Missing cond
       //cond: {
