@@ -3581,9 +3581,9 @@ react-ace@^5.0.1:
     opencollective "^1.0.3"
     prop-types "^15.5.8"
 
-react-dform@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/react-dform/-/react-dform-1.5.1.tgz#183a230ae1575643df5075287528dbb456e61826"
+react-dform@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-dform/-/react-dform-2.0.2.tgz#bb793dc7bc79cc29b3bf46009525890eeb803a91"
   dependencies:
     aphrodite "^1.2.1"
     dform "1.2.0"

@@ -23,7 +23,7 @@
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-ace": "^5.0.1",
-    "react-dform": "^1.5.1",
+    "react-dform": "2.0.2",
     "react-dom": "^15.5.4",
     "react-tap-event-plugin": "^2.0.1"
   },
